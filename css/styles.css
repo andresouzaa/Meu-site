@@ -10072,12 +10072,12 @@ h3 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1em;
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
@@ -10101,27 +10101,29 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  padding-top: calc(6rem + 14px);
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 11rem;
+  border-radius: 20px;
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    height: 100vh;
+    padding-top: calc(6rem + 14px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
